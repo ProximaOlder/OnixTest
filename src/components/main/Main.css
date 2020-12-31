@@ -1,0 +1,19 @@
+.main {
+  margin: 2% auto 2% auto;
+}
+
+.main .heading {
+  font-size: 200%;
+  background-color: white;
+  border-radius: 50px;
+  padding: 1%;
+  margin: 2%;
+  display: block;
+  text-align: center;
+}
+
+.main .descriptionSite {
+  font-size: 125%;
+  padding: 2%;
+}
+/*# sourceMappingURL=Main.css.map */

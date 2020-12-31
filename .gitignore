@@ -21,3 +21,14 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+c701535bdf7936ae5e27cf9af5bc3dff.jpg
+.eslintcache
+src/components/header/Header.css.map
+src/components/header/Header.scss
+src/components/main/Main.scss
+src/components/main/Main.css.map
+src/components/main/products/Product.scss
+src/components/main/products/Product.css.map
+src/components/footer/Footer.scss
+src/components/footer/Footer.css.map
+.gitignore
