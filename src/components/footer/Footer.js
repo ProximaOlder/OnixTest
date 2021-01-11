@@ -7,6 +7,9 @@ export default function Footer () {
       <div className="footer">
         Chaika Vlad
       </div>
+      <div className="footer link">
+      https://github.com/ProximaOlder
+      </div>
     </footer>
   );
 }

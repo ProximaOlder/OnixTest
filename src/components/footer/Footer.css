@@ -6,5 +6,10 @@
   right: 100%;
   display: inline-block;
   margin-left: 80%;
+  margin-bottom: 10px;
+}
+
+.link {
+  margin-left: 55%;
 }
 /*# sourceMappingURL=Footer.css.map */
