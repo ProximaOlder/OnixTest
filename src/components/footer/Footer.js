@@ -5,10 +5,10 @@ export default function Footer () {
   return (
     <footer>
       <div className="footer">
-        Chaika Vlad
+        <p>Chaika Vlad</p>
       </div>
       <div className="footer link">
-      https://github.com/ProximaOlder
+      <a href = "https://github.com/ProximaOlder">GitHub</a>
       </div>
     </footer>
   );

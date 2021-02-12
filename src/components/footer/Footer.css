@@ -3,13 +3,10 @@
   border-radius: 50px;
   padding: 1%;
   font-size: 200%;
-  right: 100%;
-  display: inline-block;
-  margin-left: 80%;
-  margin-bottom: 10px;
+  float: right;
 }
 
-.link {
-  margin-left: 55%;
+.footer p {
+  margin: 0;
 }
 /*# sourceMappingURL=Footer.css.map */

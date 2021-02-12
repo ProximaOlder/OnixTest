@@ -6,7 +6,9 @@ export default function Main () {
   return (
     <div className='main'>
     <span className="heading">Monkey paradise</span>
-    <span className="heading descriptionSite">Unfortunately, I did not fully understand the task itself) Therefore, I decided to do everything in my power not to lose my face in the mud. The site itself is intended for informational purposes, up to a business card (for example, a toy store). Below you can give examples of the best works or a catalog of goods</span>
+    <span className="heading descriptionSite">Cupidatat occaecat excepteur magna voluptate elit ullamco consectetur fugiat enim do aute mollit deserunt labore. Proident in irure aute non ex ea mollit nulla aliqua. Consectetur qui magna nisi aute amet enim sit consectetur aliqua ea anim dolore esse exercitation. Laborum laboris nostrud elit ea ullamco anim ut tempor.
+
+Occaecat adipisicing duis eiusmod labore laborum dolor deserunt. Reprehenderit sit cupidatat velit labore. Ut Lorem eiusmod laboris enim est. Ex officia deserunt labore ullamco est amet ipsum.</span>
     <Product />
     </div>
   );

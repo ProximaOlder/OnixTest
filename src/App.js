@@ -16,7 +16,9 @@ function App() {
         </div>
       </div>
       <div className="sidebar">
-        <img src={evilMonkey}></img>
+        <div className="monkey">
+          <img src={evilMonkey}></img>
+        </div>
       </div>
     </div>
   );
