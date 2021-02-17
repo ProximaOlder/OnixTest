@@ -15,7 +15,7 @@ arrPath.forEach(element => {
 });
 const componentPath = [...srcPath, ...arrPath];
 const componentCode = `import React from 'react';
-import './${componentName}.css';
+import './${componentName}.scss';
 const ${componentName} = () => {
   return (
     <div className="wrapper">
@@ -25,4 +25,4 @@ const ${componentName} = () => {
 export default ${componentName};`;
 fs.writeFileSync(path.resolve(...componentPath, `${componentName}.jsx`), componentCode);
 const styleCode = '.wrapper {}';
-fs.writeFileSync(path.resolve(...componentPath, `${componentName}.css`), styleCode);
+fs.writeFileSync(path.resolve(...componentPath, `${componentName}.scss`), styleCode);

@@ -32,3 +32,5 @@ src/components/main/products/Product.css.map
 src/components/footer/Footer.scss
 src/components/footer/Footer.css.map
 .gitignore
+src/components/main/newOrder/newOrder.css.map
+src/components/main/newOrder/newOrder.scss
