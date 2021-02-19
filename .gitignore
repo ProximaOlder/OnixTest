@@ -34,3 +34,14 @@ src/components/footer/Footer.css.map
 .gitignore
 src/components/main/newOrder/newOrder.css.map
 src/components/main/newOrder/newOrder.scss
+src/components/main/newOrder/orderForm/orderForm.scss
+src/components/main/newOrder/orderForm/orderForm.css.map
+src/components/main/newOrder/newOrder.jsx
+src/components/main/newOrder/orderForm/orderForm.css
+src/components/main/newOrder/orderForm/orderForm.jsx
+src/components/main/biography/newOrder.css.map
+src/components/main/biography/newOrder.scss
+src/components/main/biography/orderForm/orderForm.css
+src/components/main/biography/orderForm/orderForm.css.map
+src/components/main/biography/orderForm/orderForm.jsx
+src/components/main/biography/orderForm/orderForm.scss

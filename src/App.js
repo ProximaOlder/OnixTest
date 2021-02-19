@@ -4,7 +4,7 @@ import Header from "./components/header/Header"
 import Footer from "./components/footer/Footer";
 import Main from "./components/main/Main";
 import evilMonkey from "./img/evilMonkey.png";
-import NewOrder from "./components/main/newOrder/newOrder"
+import Biography from "./components/main/biography/Biography"
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <div className="core">
           <Header />
           <Main />
-          <NewOrder />
+          <Biography />
           <Footer />
         </div>
       </div>
