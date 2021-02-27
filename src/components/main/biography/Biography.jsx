@@ -5,6 +5,7 @@ import OrderForm from "./orderForm/orderForm";
 class Biography extends React.Component {
   state = {
     count: 0,
+    elements: [],
   };
 
   Inc = () => {
@@ -31,7 +32,7 @@ class Biography extends React.Component {
           <p className="newOrder__text newOrder__text_textcolor">About me</p>
         </button>
         <div className="biographiArea biographiArea_border">
-          {[...Array(this.state.count)].map(() => (
+          {this.state.elements[{...Array(this.state.count)}].map(() => (
             <OrderForm />
           ))}
         </div>
