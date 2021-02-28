@@ -1,49 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Biography.css";
 import OrderForm from "./orderForm/orderForm";
 
-class Biography extends React.Component {
-  state = {
-    count: 0,
-    elements: [],
+function Biography (){
+  let [count, setCount] = useState(0);
+  let elements = [];
+  let i = [];
+  let text = [];
+
+  const Inc = () => {
+    setCount(count = count + 1);
+    i[count - 1] = count;
+    elements.push(...i);
+    console.log(...i);
   };
 
-  Inc = () => {
-    this.setState(({ count }) => ({
-      count: count + 1,
-    }));
-  };
-
-  Dec = () => {
-    if (this.state.count !== 0) {
-      this.setState(({ count }) => ({
-        count: count - 1,
-      }));
+  const Dec = () => {
+    if (count !== 0) {
+      setCount(count - 1);
+      i.pop();
+      console.log(elements.push(...i));
     }
   };
 
-  render() {
     return (
       <div className="newOrder newOrder_standstyle">
         <button
           className="newOrder__button newOrder__button_increase"
-          onClick={this.Inc}
+          onClick={Inc}
         >
           <p className="newOrder__text newOrder__text_textcolor">About me</p>
         </button>
         <div className="biographiArea biographiArea_border">
-          {this.state.elements[{...Array(this.state.count)}].map(() => (
-            <OrderForm />
+          {elements.map((count) => (
+            <OrderForm 
+            value = {count}
+            text = {text}
+            />
           ))}
         </div>
         <button
           className="newOrder__button newOrder__button_increase"
-          onClick={this.Dec}
+          onClick={Dec}
         >
           <p className="newOrder__text newOrder__text_textcolor">Delete</p>
         </button>
       </div>
     );
   }
-}
 export default Biography;
